@@ -1,5 +1,8 @@
-git remote add origin
+git remote add origin: lien ket local va remote
 git checkout -b main
-git add .
-git commit -m "up demo git": 
-git push origin main
+git add . dua file vao vung staged
+git commit -m "message": ghi nhan thay doi cung ghi chu
+git push origin main: dua cac thay doi len remote
+git clone: tai toan bo 1 remote ve local
+git pull: cap nhat tu remote ve local
+git push: cap nhat tu local len remote
