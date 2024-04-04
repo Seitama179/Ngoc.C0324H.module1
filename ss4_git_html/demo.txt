@@ -1,0 +1,5 @@
+git remote add origin
+git checkout -b main
+git add .
+git commit -m "up demo git": 
+git push origin main
