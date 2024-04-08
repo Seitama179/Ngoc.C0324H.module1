@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple form</title>
+    <style>
+       h2 {
+           background: red;
+           color: white;
+           text-align:center;
+           height: 30px;
+           width: 500px;
+       }
+       body {
+           color:blue;
+       }
+       table {
+           color:red;
+       }
+    </style>
+</head>
+<body>
+    <form method="get">
+        <h2>SỞ THÍCH CỦA BẠN</h2>
+        <p>Họ và tên <input type="text" name="yourname"><p>
+        <p></p>Email <input type="text" name="email"></p>
+            Sở thích
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="hobby"> Thể thao</td>
+                    <td><input type="checkbox" name="hobby"> Âm nhạc</td>
+                    <td><input type="checkbox" name="hobby"> Đọc sách</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="hobby"> Lướt web</td>
+                    <td><input type="checkbox" name="hobby"> Chơi game</td>
+                    <td><input type="checkbox" name="hobby"> Điện ảnh</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="hobby"> Du lịch</td>
+                </tr>
+            </table>
+        <input type="button" name="Submit Form" value="Gửi thông tin"> <input type="button" name="Reset Form" value="Nhập lại"><br>
+    </form>
+</body>
+</html>
